@@ -171,9 +171,21 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+//logic is flipped around. easiest code fix is change the conditional of the if statement, rather than the contained code inside the if statement - note this is technically checking if age is less than minAge, and not if age is greater than or equal to minAge. This should be the same, but if not I will include the actual code at the end.
+//for either code as written with current vars, output log should read "enter"
+//fix: if(age < minAge) {
 if(minAge <= age) {
   console.log('no entry');
 } else {
   console.log('enter');
+}
+*/
+
+
+/* Fix using the exact logic from the question:
+if (age >= minAge) {
+  console.log('enter');
+} else {
+  console.log('no entry');
 }
 */
