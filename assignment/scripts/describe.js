@@ -26,11 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-//declare variable "name", assign value of "Dane"
+// declare variable "name", assign value of "Dane"
 // check if name is "Mary"
-//If yes, console says "Hi, Mary!"
-//If anything else, console says "How do you do?"
-//for code as writte, the console.log output should be the second one, "How do you do?"
+// If yes, console says "Hi, Mary!"
+// If anything else, console says "How do you do?"
+// for code as written, the console.log output should be the second one, "How do you do?"
 
 //CODE
 /*
@@ -48,9 +48,9 @@ if (name === 'Mary') {
 // 2. WRITE YOUR DESCRIPTION HERE
 // declare variable "secret"
 // declare variable "code", assign value of 123
-// if the code is exactly 123, then assign value of "super" to variable secret
-//    also, multiply code x2 and assign to code - > code is now 246
-// if the code value is greater than 250, then assign the value of "duper" to variable secret
+// check if the code is exactly 123, then assign value of "super" to variable secret
+//    also, multiply code x2 and assign to code - > code's value is now 246
+// check if the code value is greater than 250, then assign the value of "duper" to variable secret
 // finally, output the value of "secret" to the console. it should be "super" as the code is written now
 
 //CODE
@@ -73,10 +73,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+// declare variable isStudent, assign value of True
+// declare variable age, assign value of 34
+// declare variable zip, assign value of 55407
+// do a check: if isStudent is true AND zipcode is greater than 80000, then output to log "You're a student on the West Coast"
+// if the above is not correct, then evaluate for isStudent is false OR age is less than 30, then output to log 'What are your hobbies?'
+// if the above does not apply, then check the isStudent value. If the variable is true, then output to log "Welcome to Prime!"
+//finally, if none of these are the case, then output to log "How about the weather?".
+//Based on these initial values, the output to log should be "Welcome to Prime!"
 
 //CODE
 /*
@@ -138,7 +142,9 @@ let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+//forgot to assign colorTwo to purple as well.
   colorOne = 'purple';
+// fix: add this code: colorTwo = 'purple;
 }
 */
 
@@ -150,6 +156,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//this is checking OR instead of AND.
+//fix: if (temp > 39 && time >= 4) {
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
