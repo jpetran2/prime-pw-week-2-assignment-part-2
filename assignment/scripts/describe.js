@@ -25,11 +25,12 @@ if (number >= 2) {
 */
 
 
-// 1. WRITE YOUR DESCRIPTION HERE --
-//
-//
-//
-//
+// 1. WRITE YOUR DESCRIPTION HERE
+//declare variable "name", assign value of "Dane"
+// check if name is "Mary"
+//If yes, console says "Hi, Mary!"
+//If anything else, console says "How do you do?"
+//for code as writte, the console.log output should be the second one, "How do you do?"
 
 //CODE
 /*
@@ -45,10 +46,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+// declare variable "secret"
+// declare variable "code", assign value of 123
+// if the code is exactly 123, then assign value of "super" to variable secret
+//    also, multiply code x2 and assign to code - > code is now 246
+// if the code value is greater than 250, then assign the value of "duper" to variable secret
+// finally, output the value of "secret" to the console. it should be "super" as the code is written now
 
 //CODE
 /*
